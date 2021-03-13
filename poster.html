@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>#SchoolRebellion Protest Poster</title>
+  <meta name="description" content="Fill in the fields and download your #SchoolRebellion poster.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="/shared/application.css?v=8" media="all" rel="stylesheet" />
+  <link href="/shared/tool.css?v=7" media="all" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+  <script src="/shared/js/html2canvas.min.js"></script>
+  <script src="/shared/js/canvas2image.js"></script>
+  <script src="/shared/js/sticky-kit.min.js"></script>
+  <script src="/shared/application.js?v=9"></script>
+</head>
+<body class="tool">
+  <div class="layout">
+    <div class="setup">
+      <a href="/" class="back">⬅ Back</a>
+      <h1>DOWNLOAD THE POSTER:</h1>
+      <p>This tool is in beta. Fill in the fields and download the image. If you end up with any issue, please reach us at <a href="mailto:eixample.respira@gmail.com">eixample.respira@gmail.com</a>.</p>
+      <div class="row">
+        <label>Language:</label>
+        <div class="shopify-select">
+          <select data-location>
+            <option value="https://www.schoolrebellion.com/poster">English</option>
+            <option value="https://www.revueltaescolar.es/poster">Español</option>
+            <option value="https://www.rebelliondesecoles.fr/poster">Français</option>
+            <option value="https://www.revoltaescolar.cat/poster">Català</option>
+          </select>
+          <svg class="shopify-select-icon" viewBox="0 0 24 24"><path d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z"></path></svg>
+        </div>
+      </div>
+      <div class="row">
+        <label>Subtitle:</label>
+        <input type="text" data-target=".poster .subtitle" placeholder="we will be blocking Main Street" value="we will be blocking Main Street">
+      </div>
+      <div class="row">
+        <label>Date:</label>
+        <input type="text" data-target=".poster .date" placeholder="Friday, March 12th" value="Friday, March 12th">
+      </div>
+      <div class="row">
+        <label>Time:</label>
+        <input type="text" data-target=".poster .time" placeholder="16:30 h" value="16:30 h">
+      </div>
+      <div class="row">
+        <label>Location:</label>
+        <input type="text" data-target=".poster .location" placeholder="Main Street between 3rd and 4rth" value="Main Street between 3rd and 4rth">
+      </div>
+      <div class="row">
+        <label>Duration:</label>
+        <input type="text" data-target=".poster .duration" placeholder="Duration: 30 minutes" value="Duration: 30 minutes">
+      </div>
+      <div class="row">
+        <label>Organization entities logo:</label>
+        <input type="file" accept="image/*" data-target=".summons-1" data-parent=".summons .images"/>
+        <input type="file" accept="image/*" data-target=".summons-2" data-parent=".summons .images"/>
+        <input type="file" accept="image/*" data-target=".summons-3" data-parent=".summons .images"/>
+        <input type="file" accept="image/*" data-target=".summons-4" data-parent=".summons .images"/>
+      </div>
+      <div class="row">
+        <label>Support entities logo:</label>
+        <input type="file" accept="image/*" data-target=".support-1" data-parent=".support .images"/>
+        <input type="file" accept="image/*" data-target=".support-2" data-parent=".support .images"/>
+        <input type="file" accept="image/*" data-target=".support-3" data-parent=".support .images"/>
+        <input type="file" accept="image/*" data-target=".support-4" data-parent=".support .images"/>
+      </div>
+      <div class="row">
+        <a class="download" href="" data-action="download">Download</a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="container">
+        <div class="poster">
+          <img class="background" src="/images/base-en.png?v=2">
+          <div class="text subtitle">we will be blocking Main Street</div>
+          <div class="text info">
+            <b><span class="date">Friday, March 12th</span></b><br>
+            <b><span class="time">16:30 h</span></b><br>
+            <span class="location">Main Street between 3rd and 4rth</span><br>
+            <span class="duration">Duration: 30 minutes</span>
+          </div>
+          <div class="logos">
+            <div class="section summons">
+              <div class="text">Organiser:</div>
+              <div class="images">
+                <img src="/images/logo-afa.jpg" class="summons-1">
+              </div>
+            </div>
+            <div class="section support">
+              <div class="text" style="display: none;">With support from:</div>
+              <div class="images">
+              </div>
+            </div>
+          </div>
+          <div class="url">
+            <div class="text">More information at: <u>www.schoolrebellion.com</u></div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,363 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  color: #000;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeSpeed;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+}
+img{
+  border: 0;
+  display: block;
+  -ms-interpolation-mode: bicubic;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  background: #67A5B5;
+  color: #231F20;
+}
+.clear {
+  clear: both;
+}
+.inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+.banner {
+  background: #67A5B5;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 23px;
+  padding: 20px 0 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+.lang {
+  text-align: center;
+  margin: 20px 0;
+}
+.lang a {
+  font: bold 24px/1.2 'oswald';
+  padding: 0 10px;
+  color: #231F20;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.lang a:hover {
+  text-decoration: underline;
+}
+.page {
+  padding-bottom: 20px;
+}
+.index .text {
+  max-width: 870px;
+  margin: 0 auto;
+}
+h2 {
+  margin: auto 0px;
+  font: bold 30px/1.2 'oswald';
+  text-align: center;
+  text-decoration: underline;
+  color: #231F20;
+  text-transform: uppercase;
+}
+h2.section {
+  margin-top: 40px;
+}
+h1 {
+  font-size: 60px;
+  line-height: 66px;
+  padding: 20px 0 30px;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  text-align: center;
+  font: bold 80px/1.1 'oswald';
+}
+.index img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+p.big {
+  font-weight: bold;
+}
+p a {
+  color: #231F20;
+}
+p a.bold {
+  font-weight: bold;
+}
+.button {
+  display: inline-block;
+  cursor: pointer;
+}
+.button a{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  background: #04B7B1;
+  border: solid rgba(51, 51, 51, 1) 6px;
+  box-shadow: 1px 1px #346766, 3px 3px #346766, 5px 5px #346766, 7px 7px #346766, 9px 9px #346766;
+  transition: all 0.12s ease 0s;
+  padding: 10px 30px;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.button.small a{
+  font-size: 30px;
+  padding: 18px 30px 14px;
+}
+.button:hover a{
+  background: rgba(244, 88, 48, 1);
+  background: #4F4671;
+  border: solid rgba(51, 51, 51, 1) 6px;
+  box-shadow: 0 0 #346766;
+  left: 9px;
+  top: 9px
+}
+.menu{
+  margin: 40px 0 30px;
+  text-align: center;
+}
+.menu .button {
+  margin: 0 10px 20px 0;
+}
+.menu .button:last-child {
+  margin-right: 0;
+}
+.talls {
+  background: #7BC4D6;
+  padding: 40px 0;
+}
+.talls .inner {
+  max-width: 800px;
+}
+.talls h2.city {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.talls img {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 500px;
+}
+.talls ol {
+  margin-top: 30px;
+}
+.talls li {
+  margin-left: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 40px;
+}
+.talls li u{
+  font-weight: bold;
+}
+.footer {
+  background: #67CFCB;
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+.footer h2 {
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.footer h4 {
+  font-size: 34px;
+  margin: 0 0 30px;
+  text-decoration: underline;
+  color: #222;
+}
+.footer .logos a {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .logos img {
+  height: 80px;
+  display: inline-block;
+  margin: 20px;
+}
+.footer .logos img.big {
+  height: 100px;
+}
+.footer .logos img.very-big {
+  height: 120px;
+}
+.footer .logos img.small {
+  height: 60px;
+}
+.footer ol {
+  list-style-position: inside;
+  margin-bottom: 50px;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+}
+.footer ol.col-3 {
+  column-count: 3;
+  column-gap: 20px;
+}
+.footer ol.col-4 {
+  column-count: 4;
+  column-gap: 10px;
+}
+.footer ol li {
+  margin: 0 0 10px;
+}
+.footer ol li {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+}
+.footer ol#individuals li {
+  text-transform: capitalize;
+}
+.footer ol.col-3 li{
+  font-size: 20px;
+}
+.footer ol.col-4 li, .footer ol.col-4 li a {
+  font-size: 18px;
+}
+.footer img {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: block;
+}
+.bottom {
+  background: #67A5B5;
+  text-align: center;
+  padding: 50px 20px 40px;
+}
+.bottom .inner {
+  max-width: 2000px;
+}
+.bottom h3{
+  display: inline-block;
+  font-size: 77px;
+  color: white;
+  font: bold 40px/1.1 'oswald';
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px){
+  .button a{
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 820px){
+  .footer .inner{
+    padding: 0 0 40px;
+  }
+  .footer .logos img{
+    height: 50px;
+    margin: 5px 10px;
+  }
+}
+
+@media (max-width: 420px){
+  .inner {
+    padding: 0 15px;
+  }
+  .lang a {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+  h1 {
+    font-size: 42px;
+    padding: 15px 0;
+  }
+  .es h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h2.section {
+    font-size: 20px;
+    text-align: left;
+  }
+  p {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    margin: 15px auto;
+  }
+  p.big {
+    font-size: 22px;
+  }
+  .menu {
+    margin: 20px 0 40px;
+  }
+  .button {
+    display: block;
+  }
+}
+@media (max-width: 330px){
+  .lang {
+    margin: 15px 0 10px;
+  }
+  .lang a {
+    font-size: 16px;
+    padding: 0 5px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .es h1 {
+    font-size: 31px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p.big {
+    font-size: 18px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .button a{
+    font-size: 18px;
+    padding: 8px;
+  }
+}
